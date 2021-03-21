@@ -117,6 +117,10 @@ class Message(models.Model):
     )
     timestamp_delivered = models.DateTimeField()
     timestamp_read = models.DateTimeField()
+    testfield = models.BigIntegerField(
+        null=True,
+        blank=True,
+    )
 
 
 # Create your models here.
