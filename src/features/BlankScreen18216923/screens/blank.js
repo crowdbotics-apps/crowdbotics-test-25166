@@ -36,6 +36,6 @@ export default class Blank extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginHorizontal: 16,
+    marginHorizontal: 30,
   },
 });
